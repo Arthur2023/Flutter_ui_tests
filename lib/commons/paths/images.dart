@@ -1,0 +1,1 @@
+const String neon = 'assets/images/neon.jpg';
