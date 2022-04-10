@@ -4,8 +4,8 @@ import 'package:flutter_tests_ui/commons/commons_export/layout_export.dart';
 enum AppTheme{lightMode, darkMode}
 
 class AppThemeManager extends ChangeNotifier{
-  AppTheme appTheme = AppTheme.lightMode;
-  ThemeData appThemeData = lightTheme;
+  AppTheme appTheme = AppTheme.darkMode;
+  ThemeData appThemeData = darkTheme;
 
   void updateThemeData(AppTheme newAppTheme){
     appTheme = newAppTheme;
